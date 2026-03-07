@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /assets/
+
+Sitemap: https://m2cosmos.com/sitemap.xml
