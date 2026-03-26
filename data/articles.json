@@ -1,5 +1,13 @@
 [
     {
+        "category": "AI Tech",
+        "title": "구글 TurboQuant: AI 메모리 점유율을 6배 줄이는 기적의 압축 기술",
+        "summary": "TurboQuant는 모델 재학습 없이도 KV 캐시를 획기적으로 압축하여 AI 운영 비용을 절감하고 추론 속도를 8배 가속합니다.",
+        "link": "https://blog.m2cosmos.com/articles/google-turboquant-memory-ai-efficiency",
+        "cta": "Read Analysis"
+    },
+
+    {
         "category": "AI Insight",
         "title": "2026 Nvidia GTC 핵심 정리: 칩 로드맵을 넘어 Agentic AI 시대로의 대전환",
         "summary": "젠슨 황 CEO는 이번 기조연설에서 단순한 하드웨어 성능 향상을 넘어, AI가 스스로 판단하고 행동하는 'Agentic AI'의 시대를 선포했습니다.",
