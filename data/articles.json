@@ -1,0 +1,23 @@
+[
+    {
+        "category": "AI Insight",
+        "title": "2026 Nvidia GTC 핵심 정리: 칩 로드맵을 넘어 Agentic AI 시대로의 대전환",
+        "summary": "젠슨 황 CEO는 이번 기조연설에서 단순한 하드웨어 성능 향상을 넘어, AI가 스스로 판단하고 행동하는 'Agentic AI'의 시대를 선포했습니다.",
+        "link": "https://blog.m2cosmos.com/articles/nvidia-gtc-2026-agentic-ai-era",
+        "cta": "Read Analysis"
+    },
+    {
+        "category": "Design Tech",
+        "title": "Google Stitch 마스터 가이드",
+        "summary": "AI 디자인 툴 스티치를 완벽하게 다루는 6단계 가이드. '반복과 수정'을 통해 디자인 완성도를 극대화하는 실전 전략.",
+        "link": "https://blog.m2cosmos.com/articles/google-stitch-beginner-master-guide",
+        "cta": "Read Guide"
+    },
+    {
+        "category": "AI Strategy",
+        "title": "방치된 사내 데이터 90%를 깨우다",
+        "summary": "영상, 오디오 속 비정형 데이터를 '수익적 자산'으로 각성시키는 Gemini Embedding 2의 전략적 해자 구축법.",
+        "link": "https://blog.m2cosmos.com/articles/unstructured-data-moat-gemini-embedding-2",
+        "cta": "Read Analysis"
+    }
+]

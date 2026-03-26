@@ -21,156 +21,14 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="M2COSMOS: 인공지능과 데이터 기반의 비즈니스 혁신을 탐사하는 전략적 동반자. Digital Transformation, AI Workflow, Wealth Automation 프로젝트를 만나보세요.">
     <title>M2COSMOS | Move to Cosmos</title>
     <!-- Google AdSense Verification -->
     <meta name="google-adsense-account" content="ca-pub-8306360631355158">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8306360631355158"
         crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap');
-
-        :root {
-            --bg-color: #030305;
-            --text-color: #ffffff;
-            --card-bg: rgba(255, 255, 255, 0.02);
-            --card-border: rgba(255, 255, 255, 0.05);
-            --nav-bg: rgba(3, 3, 5, 0.6);
-            --zinc-400: #a1a1aa;
-            --nebula-1: rgba(41, 67, 92, 0.05);
-            --nebula-2: rgba(68, 45, 82, 0.05);
-            --star-color: rgba(255, 255, 255, 0.8);
-        }
-
-        [data-theme="light"] {
-            --bg-color: #f8fafc;
-            --text-color: #0f172a;
-            --card-bg: rgba(0, 0, 0, 0.02);
-            --card-border: rgba(0, 0, 0, 0.05);
-            --nav-bg: rgba(248, 250, 252, 0.8);
-            --zinc-400: #475569;
-            --nebula-1: rgba(99, 102, 241, 0.03);
-            --nebula-2: rgba(139, 92, 246, 0.03);
-            --star-color: rgba(99, 102, 241, 0.4);
-        }
-
-        body {
-            font-family: 'Inter', 'Noto Sans KR', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            transition: background-color 0.5s ease, color 0.5s ease;
-            overflow-x: hidden;
-            word-break: keep-all;
-            scroll-behavior: smooth;
-        }
-
-        #nebula-canvas,
-        #star-canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        #nebula-canvas {
-            background: radial-gradient(circle at 50% 50%, var(--bg-color) 0%, var(--bg-color) 100%);
-            z-index: -2;
-        }
-
-        .gradient-text {
-            background: linear-gradient(135deg, var(--text-color) 30%, #6366f1 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .glass-card {
-            background: var(--card-bg);
-            backdrop-filter: blur(15px);
-            border: 1px var(--card-border) solid;
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .glass-card:hover {
-            background: rgba(99, 102, 241, 0.05);
-            border-color: rgba(99, 102, 241, 0.3);
-        }
-
-        .text-zinc-400 {
-            color: var(--zinc-400);
-        }
-
-        .theme-toggle {
-            cursor: pointer;
-            padding: 8px;
-            border-radius: 50%;
-            transition: background-color 0.3s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .theme-toggle:hover {
-            background: rgba(99, 102, 241, 0.1);
-        }
-
-        /* Existing styles maintained */
-        .mobile-menu-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: var(--bg-color);
-            opacity: 0.98;
-            backdrop-filter: blur(25px);
-            z-index: 100;
-            display: none;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 2rem;
-        }
-
-        .mobile-menu-overlay.active {
-            display: flex;
-        }
-
-        .roadmap-step {
-            border-left: 2px solid rgba(99, 102, 241, 0.3);
-            padding-left: 2rem;
-            position: relative;
-        }
-
-        .roadmap-step::before {
-            content: '';
-            position: absolute;
-            left: -6px;
-            top: 0;
-            width: 10px;
-            height: 100%;
-            background: #6366f1;
-            border-radius: 10px;
-            box-shadow: 0 0 15px #6366f1;
-            height: 20px;
-        }
-
-        .portfolio-item {
-            overflow: hidden;
-            border-radius: 8px;
-        }
-
-        .portfolio-item img {
-            transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .portfolio-item:hover img {
-            transform: scale(1.05);
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/m2cosmos.css">
 </head>
 
 <body class="antialiased" data-theme="dark">
@@ -276,28 +134,8 @@
                     View All Posts <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
                 </a>
             </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Highlighted Insight 1 -->
-                <div class="glass-card p-8 flex flex-col h-full group">
-                    <span class="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-4">AI Insight</span>
-                    <h3 class="text-xl font-bold mb-4 group-hover:text-indigo-300 transition-colors">2026 Nvidia GTC 핵심 정리: 칩 로드맵을 넘어 Agentic AI 시대로의 대전환</h3>
-                    <p class="text-zinc-500 text-sm leading-relaxed mb-8 flex-grow">젠슨 황 CEO는 이번 기조연설에서 단순한 하드웨어 성능 향상을 넘어, AI가 스스로 판단하고 행동하는 'Agentic AI'의 시대를 선포했습니다.</p>
-                    <a href="https://blog.m2cosmos.com/articles/nvidia-gtc-2026-agentic-ai-era" class="text-white text-xs font-bold flex items-center gap-2 group-hover:translate-x-2 transition-transform">Read Analysis <span class="text-indigo-500">&rarr;</span></a>
-                </div>
-                <!-- Highlighted Insight 2 -->
-                <div class="glass-card p-8 flex flex-col h-full group">
-                    <span class="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-4">Design Tech</span>
-                    <h3 class="text-xl font-bold mb-4 group-hover:text-indigo-300 transition-colors">Google Stitch 마스터 가이드</h3>
-                    <p class="text-zinc-500 text-sm leading-relaxed mb-8 flex-grow">AI 디자인 툴 스티치를 완벽하게 다루는 6단계 가이드. '반복과 수정'을 통해 디자인 완성도를 극대화하는 실전 전략.</p>
-                    <a href="https://blog.m2cosmos.com/articles/google-stitch-beginner-master-guide" class="text-white text-xs font-bold flex items-center gap-2 group-hover:translate-x-2 transition-transform">Read Guide <span class="text-indigo-500">&rarr;</span></a>
-                </div>
-                <!-- Highlighted Insight 3 -->
-                <div class="glass-card p-8 flex flex-col h-full group">
-                    <span class="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-4">AI Strategy</span>
-                    <h3 class="text-xl font-bold mb-4 group-hover:text-indigo-300 transition-colors">방치된 사내 데이터 90%를 깨우다</h3>
-                    <p class="text-zinc-500 text-sm leading-relaxed mb-8 flex-grow">영상, 오디오 속 비정형 데이터를 '수익적 자산'으로 각성시키는 Gemini Embedding 2의 전략적 해자 구축법.</p>
-                    <a href="https://blog.m2cosmos.com/articles/unstructured-data-moat-gemini-embedding-2" class="text-white text-xs font-bold flex items-center gap-2 group-hover:translate-x-2 transition-transform">Read Analysis <span class="text-indigo-500">&rarr;</span></a>
-                </div>
+            <div id="insights-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Insights will be loaded dynamically here -->
             </div>
         </div>
     </section>
@@ -520,6 +358,29 @@
             requestAnimationFrame(draw);
         }
         draw();
+
+        // Load Insights Dynamically
+        async function loadInsights() {
+            try {
+                const response = await fetch('data/articles.json');
+                const articles = await response.json();
+                const container = document.getElementById('insights-container');
+                
+                container.innerHTML = articles.map(article => `
+                    <div class="glass-card p-8 flex flex-col h-full group">
+                        <span class="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-4">${article.category}</span>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-indigo-300 transition-colors">${article.title}</h3>
+                        <p class="text-zinc-500 text-sm leading-relaxed mb-8 flex-grow">${article.summary}</p>
+                        <a href="${article.link}" class="text-white text-xs font-bold flex items-center gap-2 group-hover:translate-x-2 transition-transform">
+                            ${article.cta} <span class="text-indigo-500">&rarr;</span>
+                        </a>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading insights:', error);
+            }
+        }
+        loadInsights();
     </script>
 </body>
 
