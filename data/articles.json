@@ -1,5 +1,12 @@
 [
     {
+        "category": "StartUp",
+        "title": "아이디어 하나로 인생 역전? '모두의 창업 프로젝트' 전 국민 모집 시작! 🚀✨",
+        "summary": "참신한 아이디어만 있다면 누구나 주인공! 중기부 주관 '모두의 창업 프로젝트'의 파격적인 지원 혜택과 신청 방법을 소개합니다.",
+        "link": "https://blog.m2cosmos.com/articles/startup-project-for-everyone-2026",
+        "cta": "Read Analysis"
+    },
+    {
         "category": "AI Tech",
         "title": "구글 TurboQuant: AI 메모리 점유율을 6배 줄이는 기적의 압축 기술",
         "summary": "TurboQuant는 모델 재학습 없이도 KV 캐시를 획기적으로 압축하여 AI 운영 비용을 절감하고 추론 속도를 8배 가속합니다.",
